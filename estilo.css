@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+p, nav, ul{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header{
+    background-color: #f37520;
+    min-height: 65px;
+}
+
+.mouse{
+    cursor: pointer;
+}
+
+section nav{
+    background-color: #ededed;
+    padding: 2rem;
+}
+
+footer{
+    background-color: #454545;
+    padding: 2rem;
+}
+
+@media(min-width: 576px){
+    section,
+    section > .row,
+    section > .row > [class^=col-],
+    section > .row nav
+
+    {
+        height:calc(100vh - 305px);
+    }
+}
